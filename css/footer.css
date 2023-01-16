@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
+
+html{
+    font-size:62.5%;
+}
+*{
+    margin:0; padding:0;
+    font-family: 'SUIT-Regular';
+    box-sizing: border-box;
+}
+a{
+    color:#222;
+    text-decoration: none;
+    
+}
+
+
+@media(max-width:500px){
+    footer{
+        width:100%;
+        padding:30px 10px;
+        font-size:1.2rem;
+        background:#575756;
+    }
+    
+    footer ul:nth-of-type(1){
+        display:flex;
+        justify-content: center;
+    }
+
+    footer li{
+        margin:5px 5px;
+        /* color:white; */
+        float:left;
+    
+    }
+    footer li a{
+        color:white;
+    }
+    footer li span{
+        color:white;
+        font-size:1.1rem;
+        margin-left:10px;
+    }
+    footer ul:not(:nth-of-type(1)) li span{
+        display:none;
+    }
+    
+    
+    footer p{
+        display:none;
+    }
+    
+    footer .icon{
+        font-size:1.1rem;
+    }
+    footer .icon li{
+        width:60px; margin:0 5px;
+        text-align:center;
+    }
+    footer .icon li img{
+        padding:5px;
+    }
+}
+@media(min-width:501px) and (max-width:1399px){
+
+}
+@media(min-width:1400px){
+    footer{
+        margin-top:100px;
+        width:100%; 
+        padding:50px 0;
+        font-size:1.4rem;
+        background:#575756;
+    }
+    
+    footer ul{
+        width:70%; margin:0 auto;
+        margin-bottom:30px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer li{
+        margin:5px 5px;
+        float:left;
+    
+    }
+    footer li span{
+        font-size:1.2rem;
+        margin-left:10px;
+    }
+    
+    footer ul:nth-of-type(1) li a,
+    footer ul:nth-of-type(1) li span{
+        color:white;
+    }
+    
+    footer ul:not(:nth-of-type(1)) li,
+    footer ul:not(:nth-of-type(1)) li span{
+        color:#b4b4b4;
+    }
+    
+    
+    footer p{
+        width:100%; text-align: center;
+        color:#b4b4b4;
+        margin-bottom:30px;
+    }
+    
+    footer .icon{
+        width:100%; margin:0 auto;
+        font-size:1.1rem;
+
+    }
+    footer .icon li{
+        margin:0 5px;
+        text-align:center;
+    }
+    footer .icon li img{
+        padding:5px;
+    }
+}

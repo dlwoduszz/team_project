@@ -1,0 +1,367 @@
+/* 공통 */
+html,
+body,
+table,
+tr,
+td,
+input,
+select,
+textarea {font-family:Dotum; font-size:12px; line-height:16px; color:#000; letter-spacing:0px; margin-left:0px; margin-top:0px;
+margin-right:0px; margin-bottom:0px; scrollbar-face-color:#ffffff; scrollbar-highlight-color:#d3d3d3; scrollbar-shadow-color:#d3d3d3;  scrollbar-3dlight-color:#ffffff; scrollbar-arrow-color:#d3d3d3; scrollbar-track-color:#ffffff; scrollbar-darkshadow-color:#ffffff;}
+p {padding:0; margin:0;}+
+a {text-decoration:none; color:#000;}
+h1,h2,h3,h4,h5 {display:none;}
+table {border-spacing:0 !important;}
+li,
+ol,
+ul {padding:0; margin:0; list-style:none;}
+img {border:0;}
+a:hover {text-decoration:normal;}
+#wrap_popup {position:relative; width:800px; float:left;}
+
+/* Header */
+#wrap_popup .header {position:relative; width:100%; height:79px; background:url(../images/tit.jpg) no-repeat;}
+#wrap_popup .header .btn_close {display:inline-block; position:absolute; top:13px; right:25px;}
+
+
+/* Contents */
+#wrap_popup .contents {position:relative; width:100%; height:721px; float:left; overflow-y:scroll;}
+#wrap_popup .contents .tit_sub {padding:30px 0 27px 0;}
+#wrap_popup .contents .wrap_map {width:783px; height:439px; background-color:#f2f2f2;}
+#wrap_popup .contents .wrap_map .map {position:relative; width:343px; height:439px; float:left; background:url(../images/map.jpg) no-repeat;}
+#wrap_popup .contents .wrap_map .map .map_tit {display:inline-block; background:url(../images/icon_arr.png) no-repeat; padding-left:14px; margin:35px 0 0 20px; line-height:16px;}
+#wrap_popup .contents .wrap_map .map a {font-size:12px; text-decoration:none; color:#363636; position:absolute;}
+#wrap_popup .contents .wrap_map .map a:visited {color:#363636;}
+#wrap_popup .contents .wrap_map .map a:focus,
+#wrap_popup .contents .wrap_map .map a:hover {background-color:#cd0600; color:#fff !important;}
+#wrap_popup .contents .wrap_map .map .b_map1 {top:240px; left:142px;}
+#wrap_popup .contents .wrap_map .map .b_map2 {top:250px; left:220px;}
+#wrap_popup .contents .wrap_map .map .b_map3 {top:250px; left:75px;}
+#wrap_popup .contents .wrap_map .map .b_map4 {top:222px; left:149px;}
+#wrap_popup .contents .wrap_map .map .b_map5 {top:244px; left:141px;}
+#wrap_popup .contents .wrap_map .map .b_map6 {top:274px; left:196px;}
+#wrap_popup .contents .wrap_map .map .b_map7 {top:295px; left:253px;}
+#wrap_popup .contents .wrap_map .map .b_map8 {top:333px; left:239px;}
+#wrap_popup .contents .wrap_map .map .b_map9 {top:327px; left:95px;}
+#wrap_popup .contents .wrap_map .map .b_map10 {top:137px; left:185px;}
+#wrap_popup .contents .wrap_map .map .b_map11 {top:202px; left:147px;}
+#wrap_popup .contents .wrap_map .map .b_map12 {top:227px; left:99px;}
+#wrap_popup .contents .wrap_map .map .b_map13 {top:231px; left:208px;}
+#wrap_popup .contents .wrap_map .map .b_map14 {top:307px; left:180px;}
+#wrap_popup .contents .wrap_map .map .b_map15 {top:281px; left:114px;}
+#wrap_popup .contents .wrap_map .map .b_map16 {top:349px; left:93px;}
+#wrap_popup .contents .wrap_map .map .b_map17 {top:372px; left:240px;}
+#wrap_popup .contents .wrap_map .map_sub {width:440px; height:439px; margin-left:343px; background:url(../images/map_0.jpg) no-repeat;}
+#wrap_popup .contents .wrap_map .map_sub div {position:relative; width:440px; height:439px; display:none; background-color:#f2f2f2;}
+#wrap_popup .contents .wrap_map .map_sub div a {font-size:11px; text-decoration:none; color:#363636; position:absolute; cursor:pointer;}
+#wrap_popup .contents .wrap_map .map_sub div a:visited {color:#363636;}
+#wrap_popup .contents .wrap_map .map_sub div a:focus,
+#wrap_popup .contents .wrap_map .map_sub div a:hover {background-color:#cd0600; color:#fff !important;}
+
+/* Map */
+/* 서울특별시 */
+#map1 {background:url(../images/map1.png) no-repeat;}
+#map1 .b_map1_1 {left:245px; top:96px;}
+#map1 .b_map1_2 {left:228px; top:144px;}
+#map1 .b_map1_3 {left:286px; top:142px;}
+#map1 .b_map1_4 {left:156px; top:164px;}
+#map1 .b_map1_5 {left:230px; top:181px;}
+#map1 .b_map1_6 {left:157px; top:212px;}
+#map1 .b_map1_7 {left:203px; top:202px;}
+#map1 .b_map1_8 {left:260px; top:207px;}
+#map1 .b_map1_9 {left:298px; top:184px;}
+#map1 .b_map1_10 {left:69px; top:215px;}
+#map1 .b_map1_11 {left:164px; top:239px;}
+#map1 .b_map1_12 {left:224px; top:226px;}
+#map1 .b_map1_13 {left:254px; top:237px;}
+#map1 .b_map1_14 {left:296px; top:243px;}
+#map1 .b_map1_15 {left:348px; top:225px;}
+#map1 .b_map1_16 {left:97px; top:260px;}
+#map1 .b_map1_17 {left:133px; top:262px;}
+#map1 .b_map1_18 {left:180px; top:280px;}
+#map1 .b_map1_19 {left:206px; top:254px;}
+#map1 .b_map1_20 {left:90px; top:286px;}
+#map1 .b_map1_21 {left:129px; top:323px;}
+#map1 .b_map1_22 {left:177px; top:317px;}
+#map1 .b_map1_23 {left:232px; top:302px;}
+#map1 .b_map1_24 {left:277px; top:291px;}
+#map1 .b_map1_25 {left:320px; top:275px;}
+
+/* 경기도 */
+#map2 {background:url(../images/map2.png) no-repeat;}
+#map2 .b_map2_1 {left:181px; top:94px;}
+#map2 .b_map2_2 {left:232px; top:113px;}
+#map2 .b_map2_3 {left:190px; top:135px;}
+#map2 .b_map2_4 {left:136px; top:152px;}
+#map2 .b_map2_5 {left:180px; top:159px;}
+#map2 .b_map2_6 {left:185px; top:184px;}
+#map2 .b_map2_7 {left:262px; top:164px;}
+#map2 .b_map2_8 {left:223px; top:200px;}
+#map2 .b_map2_9 {left:88px; top:194px;}
+#map2 .b_map2_10 {left:141px; top:201px;}
+#map2 .b_map2_11 {left:191px; top:219px;}
+#map2 .b_map2_12 {left:209px; top:236px;}
+#map2 .b_map2_13 {left:296px; top:243px;}
+#map2 .b_map2_14 {left:118px; top:240px;}
+#map2 .b_map2_15 {left:150px; top:254px;}
+#map2 .b_map2_16 {left:182px; top:247px;}
+#map2 .b_map2_17 {left:201px; top:262px;}
+#map2 .b_map2_18 {left:151px; top:270px;}
+#map2 .b_map2_19 {left:113px; top:270px;}
+#map2 .b_map2_20 {left:187px; top:276px;}
+#map2 .b_map2_21 {left:240px; top:268px;}
+#map2 .b_map2_22 {left:313px; top:300px;}
+#map2 .b_map2_23 {left:154px; top:288px;}
+#map2 .b_map2_24 {left:121px; top:299px;}
+#map2 .b_map2_25 {left:185px; top:300px;}
+#map2 .b_map2_26 {left:227px; top:316px;}
+#map2 .b_map2_27 {left:268px; top:311px;}
+#map2 .b_map2_28 {left:190px; top:324px;}
+#map2 .b_map2_29 {left:156px; top:335px;}
+#map2 .b_map2_30 {left:174px; top:371px;}
+#map2 .b_map2_31 {left:238px; top:366px;}
+
+/* 인천광역시 */
+#map3 {background:url(../images/map3.png) no-repeat;}
+#map3 .b_map3_1 {left:215px; top:185px;}
+#map3 .b_map3_2 {left:214px; top:303px;}
+#map3 .b_map3_3 {left:305px; top:249px;}
+#map3 .b_map3_4 {left:290px; top:301px;}
+#map3 .b_map3_5 {left:317px; top:323px;}
+#map3 .b_map3_6 {left:302px; top:350px;}
+#map3 .b_map3_7 {left:351px; top:262px;}
+#map3 .b_map3_8 {left:352px; top:297px;}
+#map3 .b_map3_9 {left:354px; top:342px;}
+#map3 .b_map3_10 {left:204px; top:372px;}
+
+/* 세종시 */
+#map4 {background:url(../images/map4.png) no-repeat;}
+#map4 .b_map4_1 {left:142px; top:87px;}
+#map4 .b_map4_2 {left:148px; top:149px;}
+#map4 .b_map4_3 {left:204px; top:148px;}
+#map4 .b_map4_4 {left:202px; top:218px;}
+#map4 .b_map4_5 {left:246px; top:198px;}
+#map4 .b_map4_6 {left:170px; top:301px;}
+#map4 .b_map4_7 {left:209px; top:295px;}
+#map4 .b_map4_8 {left:245px; top:279px;}
+#map4 .b_map4_9 {left:271px; top:254px;}
+#map4 .b_map4_10 {left:319px; top:276px;}
+#map4 .b_map4_11 {left:248px; top:348px;}
+
+/* 대전광역시 */
+#map5 {background:url(../images/map5.png) no-repeat;}
+#map5 .b_map5_1 {left:153px; top:208px;}
+#map5 .b_map5_2 {left:227px; top:188px;}
+#map5 .b_map5_3 {left:160px; top:315px;}
+#map5 .b_map5_4 {left:219px; top:296px;}
+#map5 .b_map5_5 {left:272px; top:259px;}
+
+/* 대구광역시 */
+#map6 {background:url(../images/map6.png) no-repeat;}
+#map6 .b_map6_1 {left:226px; top:147px;}
+#map6 .b_map6_2 {left:296px; top:146px;}
+#map6 .b_map6_3 {left:208px; top:187px;}
+#map6 .b_map6_4 {left:236px; top:194px;}
+#map6 .b_map6_5 {left:232px; top:222px;}
+#map6 .b_map6_6 {left:188px; top:227px;}
+#map6 .b_map6_7 {left:276px; top:220px;}
+#map6 .b_map6_8 {left:165px; top:298px;}
+
+/* 울산광역시 */
+#map7 {background:url(../images/map7.png) no-repeat;}
+#map7 .b_map7_1 {left:158px; top:224px;}
+#map7 .b_map7_2 {left:256px; top:198px;}
+#map7 .b_map7_3 {left:306px; top:168px;}
+#map7 .b_map7_4 {left:277px; top:239px;}
+#map7 .b_map7_5 {left:330px; top:243px;}
+
+/* 부산광역시 */
+#map8 {background:url(../images/map8.png) no-repeat;}
+#map8 .b_map8_1 {left:136px; top:264px;}
+#map8 .b_map8_2 {left:210px; top:202px;}
+#map8 .b_map8_3 {left:249px; top:178px;}
+#map8 .b_map8_4 {left:312px; top:146px;}
+#map8 .b_map8_5 {left:181px; top:258px;}
+#map8 .b_map8_6 {left:203px; top:245px;}
+#map8 .b_map8_7 {left:247px; top:234px;}
+#map8 .b_map8_8 {left:236px; top:212px;}
+#map8 .b_map8_9 {left:285px; top:229px;}
+#map8 .b_map8_10 {left:172px; top:309px;}
+#map8 .b_map8_11 {left:197px; top:289px;}
+#map8 .b_map8_12 {left:222px; top:279px;}
+#map8 .b_map8_13 {left:257px; top:252px;}
+#map8 .b_map8_14 {left:216px; top:301px;}
+#map8 .b_map8_15 {left:232px; top:323px;}
+#map8 .b_map8_16 {left:257px; top:279px;}
+
+/* 광주광역시 */
+#map9 {background:url(../images/map9.png) no-repeat;}
+#map9 .b_map9_1 {left:133px; top:230px;}
+#map9 .b_map9_2 {left:292px; top:199px;}
+#map9 .b_map9_3 {left:233px; top:254px;}
+#map9 .b_map9_4 {left:238px; top:299px;}
+#map9 .b_map9_5 {left:327px; top:279px;}
+
+/* 강원도 */
+#map10 {background:url(../images/map10.png) no-repeat;}
+#map10 .b_map10_1 {left:71px; top:142px;}
+#map10 .b_map10_2 {left:115px; top:163px;}
+#map10 .b_map10_3 {left:162px; top:154px;}
+#map10 .b_map10_4 {left:226px; top:121px;}
+#map10 .b_map10_5 {left:126px; top:207px;}
+#map10 .b_map10_6 {left:207px; top:186px;}
+#map10 .b_map10_7 {left:253px; top:152px;}
+#map10 .b_map10_8 {left:174px; top:238px;}
+#map10 .b_map10_9 {left:263px; top:189px;}
+#map10 .b_map10_10 {left:180px; top:281px;}
+#map10 .b_map10_11 {left:235px; top:277px;}
+#map10 .b_map10_12 {left:302px; top:241px;}
+#map10 .b_map10_13 {left:151px; top:323px;}
+#map10 .b_map10_14 {left:246px; top:348px;}
+#map10 .b_map10_15 {left:277px; top:311px;}
+#map10 .b_map10_16 {left:335px; top:282px;}
+#map10 .b_map10_17 {left:311px; top:350px;}
+#map10 .b_map10_18 {left:350px; top:329px;}
+
+/* 충청북도 */
+#map11 {background:url(../images/map11.png) no-repeat;}
+#map11 .b_map11_1 {left:118px; top:184px;}
+#map11 .b_map11_2 {left:148px; top:161px;}
+#map11 .b_map11_3 {left:204px; top:144px;}
+#map11 .b_map11_4 {left:261px; top:116px;}
+#map11 .b_map11_5 {left:306px; top:150px;}
+#map11 .b_map11_6 {left:122px; top:242px;}
+#map11 .b_map11_7 {left:152px; top:210px;}
+#map11 .b_map11_8 {left:197px; top:206px;}
+#map11 .b_map11_9 {left:178px; top:278px;}
+#map11 .b_map11_10 {left:162px; top:320px;}
+#map11 .b_map11_11 {left:198px; top:363px;}
+
+/* 충청남도 */
+#map12 {background:url(../images/map12.png) no-repeat;}
+#map12 .b_map12_1 {left:68px; top:155px;}
+#map12 .b_map12_2 {left:121px; top:159px;}
+#map12 .b_map12_3 {left:166px; top:122px;}
+#map12 .b_map12_4 {left:236px; top:151px;}
+#map12 .b_map12_5 {left:295px; top:151px;}
+#map12 .b_map12_6 {left:153px; top:216px;}
+#map12 .b_map12_7 {left:203px; top:186px;}
+#map12 .b_map12_8 {left:148px; top:285px;}
+#map12 .b_map12_9 {left:203px; top:252px;}
+#map12 .b_map12_10 {left:266px; top:241px;}
+#map12 .b_map12_11 {left:174px; top:347px;}
+#map12 .b_map12_12 {left:209px; top:307px;}
+#map12 .b_map12_13 {left:302px; top:299px;}
+#map12 .b_map12_14 {left:275px; top:325px;}
+#map12 .b_map12_15 {left:350px; top:346px;}
+
+/* 경상북도 */
+#map13 {background:url(../images/map13.png) no-repeat;}
+#map13 .b_map13_1 {left:118px; top:162px;}
+#map13 .b_map13_2 {left:166px; top:165px;}
+#map13 .b_map13_3 {left:187px; top:133px;}
+#map13 .b_map13_4 {left:237px; top:113px;}
+#map13 .b_map13_5 {left:299px; top:110px;}
+#map13 .b_map13_6 {left:366px; top:101px;}
+#map13 .b_map13_7 {left:107px; top:214px;}
+#map13 .b_map13_8 {left:189px; top:223px;}
+#map13 .b_map13_9 {left:216px; top:180px;}
+#map13 .b_map13_10 {left:272px; top:158px;}
+#map13 .b_map13_11 {left:102px; top:281px;}
+#map13 .b_map13_12 {left:152px; top:255px;}
+#map13 .b_map13_13 {left:202px; top:262px;}
+#map13 .b_map13_14 {left:267px; top:224px;}
+#map13 .b_map13_15 {left:304px; top:204px;}
+#map13 .b_map13_16 {left:131px; top:311px;}
+#map13 .b_map13_17 {left:168px; top:288px;}
+#map13 .b_map13_18 {left:246px; top:290px;}
+#map13 .b_map13_19 {left:298px; top:266px;}
+#map13 .b_map13_20 {left:131px; top:347px;}
+#map13 .b_map13_21 {left:215px; top:327px;}
+#map13 .b_map13_22 {left:214px; top:360px;}
+#map13 .b_map13_23 {left:294px; top:328px;}
+
+/* 경상남도 */
+#map14 {background:url(../images/map14.png) no-repeat;}
+#map14 .b_map14_1 {left:84px; top:170px;}
+#map14 .b_map14_2 {left:126px; top:125px;}
+#map14 .b_map14_3 {left:119px; top:217px;}
+#map14 .b_map14_4 {left:172px; top:170px;}
+#map14 .b_map14_5 {left:201px; top:209px;}
+#map14 .b_map14_6 {left:243px; top:171px;}
+#map14 .b_map14_7 {left:304px; top:190px;}
+#map14 .b_map14_8 {left:360px; top:209px;}
+#map14 .b_map14_9 {left:228px; top:235px;}
+#map14 .b_map14_10 {left:97px; top:274px;}
+#map14 .b_map14_11 {left:168px; top:259px;}
+#map14 .b_map14_12 {left:268px; top:250px;}
+#map14 .b_map14_13 {left:318px; top:240px;}
+#map14 .b_map14_14 {left:149px; top:295px;}
+#map14 .b_map14_15 {left:126px; top:360px;}
+#map14 .b_map14_16 {left:199px; top:303px;}
+#map14 .b_map14_17 {left:213px; top:337px;}
+#map14 .b_map14_18 {left:282px; top:347px;}
+
+/* 전라북도 */
+#map15 {background:url(../images/map15.png) no-repeat;}
+#map15 .b_map15_1 {left:116px; top:167px;}
+#map15 .b_map15_2 {left:176px; top:148px;}
+#map15 .b_map15_3 {left:229px; top:165px;}
+#map15 .b_map15_4 {left:278px; top:201px;}
+#map15 .b_map15_5 {left:350px; top:171px;}
+#map15 .b_map15_6 {left:151px; top:207px;}
+#map15 .b_map15_7 {left:204px; top:204px;}
+#map15 .b_map15_8 {left:90px; top:248px;}
+#map15 .b_map15_9 {left:154px; top:266px;}
+#map15 .b_map15_10 {left:236px; top:273px;}
+#map15 .b_map15_11 {left:310px; top:254px;}
+#map15 .b_map15_12 {left:81px; top:317px;}
+#map15 .b_map15_13 {left:210px; top:326px;}
+#map15 .b_map15_14 {left:284px; top:320px;}
+
+/* 전라남도 */
+#map16 {background:url(../images/map16.png) no-repeat;}
+#map16 .b_map16_1 {left:139px; top:150px;}
+#map16 .b_map16_2 {left:200px; top:140px;}
+#map16 .b_map16_3 {left:248px; top:151px;}
+#map16 .b_map16_4 {left:304px; top:167px;}
+#map16 .b_map16_5 {left:348px; top:159px;}
+#map16 .b_map16_6 {left:141px; top:189px;}
+#map16 .b_map16_7 {left:49px; top:247px;}
+#map16 .b_map16_8 {left:127px; top:227px;}
+#map16 .b_map16_9 {left:191px; top:211px;}
+#map16 .b_map16_10 {left:250px; top:211px;}
+#map16 .b_map16_11 {left:326px; top:214px;}
+#map16 .b_map16_12 {left:378px; top:202px;}
+#map16 .b_map16_13 {left:125px; top:257px;}
+#map16 .b_map16_14 {left:172px; top:250px;}
+#map16 .b_map16_15 {left:223px; top:269px;}
+#map16 .b_map16_16 {left:273px; top:254px;}
+#map16 .b_map16_17 {left:90px; top:329px;}
+#map16 .b_map16_18 {left:157px; top:315px;}
+#map16 .b_map16_19 {left:197px; top:288px;}
+#map16 .b_map16_20 {left:310px; top:301px;}
+#map16 .b_map16_21 {left:188px; top:378px;}
+#map16 .b_map16_22 {left:371px; top:260px;}
+
+/* 제주도 */
+#map17 {background:url(../images/map17.png) no-repeat;}
+#map17 .b_map17_1 {left:195px; top:211px;}
+#map17 .b_map17_2 {left:224px; top:264px;}
+
+
+
+/* Table */
+.wrap_tb {width:95%; float:left; margin-left:20px; padding-bottom:30px;}
+.wrap_tb .tb_tit {padding:32px 0 18px 0;}
+.wrap_tb .tb_result {width:100%;}
+.wrap_tb .tb_result th {height:38px; line-height:38px; border-top:1px solid #000; border-bottom:1px solid #adadad; font-size:12px; font-weight:normal; background:url(../images/tb_bar.gif) no-repeat;}
+.wrap_tb .tb_result th:first-child,
+.wrap_tb .tb_result th.first {background:none;}
+.wrap_tb .tb_result td {height:116px; line-height:18px; border-bottom:1px solid #adadad; font-size:12px; text-align:center; word-break:break-all;}
+.wrap_tb .tb_result td.first {text-align:left;}
+.wrap_tb .tb_result td .msg {text-align:center;}
+.wrap_tb .tb_result td .shop_tit {display:block; padding-left:10px; font-weight:bold;}
+.wrap_tb .tb_result td .shop_adr {display:inline-block; padding-left:10px;}
+
+/* #wrap_popup .btn_top {position:absolute; right:17px; bottom:0;} */
